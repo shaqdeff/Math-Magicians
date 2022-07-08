@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState, React } from 'react';
 import calculate from '../logic/calculate';
 
 /* eslint-disable react/prefer-stateless-function */
