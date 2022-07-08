@@ -1,6 +1,6 @@
 # Math-Magicians
 
-Math Magicians is a calculator app built with React
+Math Magicians is a calculator app built with React.
 
 ## Built With
 
