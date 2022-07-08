@@ -3,7 +3,7 @@ import calculate from '../logic/calculate';
 
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/jsx-closing-bracket-location */
-class Calculator extends React.Component {
+ const Calculator = () => {
   constructor(props) {
     super(props);
 
