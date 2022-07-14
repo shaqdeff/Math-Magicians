@@ -20,6 +20,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator-app">
+      <h2>Let&apos;s do some math!</h2>
       <div className="calculator-grid">
         <div className="output">
           <div className="operand" onChange={handleTextChange}>

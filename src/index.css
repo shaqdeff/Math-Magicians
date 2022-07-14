@@ -31,13 +31,25 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
+  position: relative;
   overflow: hidden;
+}
+
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 17%;
+  margin-left: 10rem;
+  max-width: 50vw;
+  color: rgb(170, 170, 170);
 }
 
 .calculator-grid {
   display: grid;
-  margin-top: 10rem;
-  position: relative;
+  margin-top: 8rem;
+  position: absolute;
   left: 60%;
   grid-template-columns: repeat(4, 11rem);
   grid-template-rows: minmax(8rem, auto) repeat(5, 7rem);
