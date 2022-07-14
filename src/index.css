@@ -15,17 +15,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -35,6 +26,12 @@ body {
   overflow: hidden;
 }
 
+.calculator-app {
+  height: 95vh;
+  background: url(./images/bg-image1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 h2 {
   font-size: 3.2rem;
@@ -43,7 +40,15 @@ h2 {
   top: 17%;
   margin-left: 10rem;
   max-width: 50vw;
-  color: rgb(170, 170, 170);
+  color: rgb(177, 177, 177);
+}
+
+.math-brain {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 28%;
+  margin-left: 7.4rem;
 }
 
 .calculator-grid {
@@ -53,6 +58,8 @@ h2 {
   left: 60%;
   grid-template-columns: repeat(4, 11rem);
   grid-template-rows: minmax(8rem, auto) repeat(5, 7rem);
+  box-shadow: rgba(47, 47, 47, 0.56) 0px 22px 70px 4px;
+  border-radius: 20px;
 }
 
 .span-two {
@@ -66,7 +73,7 @@ h2 {
 
 .output {
   grid-column: 1 / -1;
-  background: rgb(120, 120, 120);
+  background: rgb(139, 139, 139);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

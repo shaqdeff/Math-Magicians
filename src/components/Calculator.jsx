@@ -1,6 +1,8 @@
 import { useState, React } from 'react';
 import calculate from '../logic/calculate';
 
+const image = require('../images/math-brain.png');
+
 /* eslint-disable react/function-component-definition */
 /* eslint-disable react/jsx-closing-bracket-location */
 const Calculator = () => {
@@ -21,6 +23,7 @@ const Calculator = () => {
   return (
     <div className="calculator-app">
       <h2>Let&apos;s do some math!</h2>
+      <img className="math-brain" src={image} alt="" />
       <div className="calculator-grid">
         <div className="output">
           <div className="operand" onChange={handleTextChange}>
