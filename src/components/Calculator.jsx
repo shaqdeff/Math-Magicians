@@ -19,93 +19,95 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-grid">
-      <div className="output">
-        <div className="operand" onChange={handleTextChange}>
-          {state.next || state.total || 0}
+    <div className="calculator-app">
+      <div className="calculator-grid">
+        <div className="output">
+          <div className="operand" onChange={handleTextChange}>
+            {state.next || state.total || 0}
+          </div>
         </div>
+        <button type="button" onClick={handleClick} value="AC">
+          AC
+        </button>
+        <button type="button" onClick={handleClick} value="+/-">
+          +/-
+        </button>
+        <button type="button" onClick={handleClick} value="%">
+          %
+        </button>
+        <button
+          type="button"
+          className="color-btn"
+          onClick={handleClick}
+          value="÷">
+          ÷
+        </button>
+        <button type="button" onClick={handleClick} value="7">
+          7
+        </button>
+        <button type="button" onClick={handleClick} value="8">
+          8
+        </button>
+        <button type="button" onClick={handleClick} value="9">
+          9
+        </button>
+        <button
+          type="button"
+          className="color-btn"
+          onClick={handleClick}
+          value="x">
+          x
+        </button>
+        <button type="button" onClick={handleClick} value="4">
+          4
+        </button>
+        <button type="button" onClick={handleClick} value="5">
+          5
+        </button>
+        <button type="button" onClick={handleClick} value="6">
+          6
+        </button>
+        <button
+          type="button"
+          className="color-btn"
+          onClick={handleClick}
+          value="-">
+          -
+        </button>
+        <button type="button" onClick={handleClick} value="1">
+          1
+        </button>
+        <button type="button" onClick={handleClick} value="2">
+          2
+        </button>
+        <button type="button" onClick={handleClick} value="3">
+          3
+        </button>
+        <button
+          type="button"
+          className="color-btn"
+          onClick={handleClick}
+          value="+">
+          +
+        </button>
+        <button
+          type="button"
+          className="span-two-border"
+          onClick={handleClick}
+          value="0">
+          0
+        </button>
+        <button type="button" onClick={handleClick} value=".">
+          .
+        </button>
+        <button
+          type="button"
+          className="bottom-right-btn"
+          onClick={handleClick}
+          value="=">
+          =
+        </button>
       </div>
-      <button type="button" onClick={handleClick} value="AC">
-        AC
-      </button>
-      <button type="button" onClick={handleClick} value="+/-">
-        +/-
-      </button>
-      <button type="button" onClick={handleClick} value="%">
-        %
-      </button>
-      <button
-        type="button"
-        className="color-btn"
-        onClick={handleClick}
-        value="÷">
-        ÷
-      </button>
-      <button type="button" onClick={handleClick} value="7">
-        7
-      </button>
-      <button type="button" onClick={handleClick} value="8">
-        8
-      </button>
-      <button type="button" onClick={handleClick} value="9">
-        9
-      </button>
-      <button
-        type="button"
-        className="color-btn"
-        onClick={handleClick}
-        value="x">
-        x
-      </button>
-      <button type="button" onClick={handleClick} value="4">
-        4
-      </button>
-      <button type="button" onClick={handleClick} value="5">
-        5
-      </button>
-      <button type="button" onClick={handleClick} value="6">
-        6
-      </button>
-      <button
-        type="button"
-        className="color-btn"
-        onClick={handleClick}
-        value="-">
-        -
-      </button>
-      <button type="button" onClick={handleClick} value="1">
-        1
-      </button>
-      <button type="button" onClick={handleClick} value="2">
-        2
-      </button>
-      <button type="button" onClick={handleClick} value="3">
-        3
-      </button>
-      <button
-        type="button"
-        className="color-btn"
-        onClick={handleClick}
-        value="+">
-        +
-      </button>
-      <button
-        type="button"
-        className="span-two"
-        onClick={handleClick}
-        value="0">
-        0
-      </button>
-      <button type="button" onClick={handleClick} value=".">
-        .
-      </button>
-      <button
-        type="button"
-        className="color-btn"
-        onClick={handleClick}
-        value="=">
-        =
-      </button>
     </div>
   );
 };

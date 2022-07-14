@@ -1,0 +1,41 @@
+.nav {
+  background: rgb(93, 93, 93);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 3rem;
+  height: 8vh;
+}
+
+.math-magic {
+  font-size: 2.5rem;
+  font-weight: bold;
+    color: inherit;
+  text-decoration: none;
+}
+
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.nav li a:hover {
+  color: rgb(255, 149, 9);
+}
+
+.nav li a:active {
+  color: rgb(231, 131, 0);
+}
