@@ -51,7 +51,7 @@ h2 {
   margin-left: 15rem;
   max-width: 400px;
   color: rgb(182, 182, 182);
-  box-shadow: rgba(32, 32, 32, 0.06) 0 1px 12px inset;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 1px 12px inset;
   border-radius: 10px;
   height: 20vh;
   max-height: 110px;
