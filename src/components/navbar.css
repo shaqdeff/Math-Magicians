@@ -7,13 +7,12 @@
   gap: 2rem;
   padding: 1rem 4rem;
   height: 10vh;
-  z-index: 1;
 }
 
 .math-magic {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: bold;
-  color: inherit;
+  color: rgb(255, 170, 59);
   text-decoration: none;
 }
 
