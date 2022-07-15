@@ -101,10 +101,10 @@ button:active {
 }
 
 .color-btn {
-  background: rgb(255, 163, 43);
+  background: #f4ab0efa;
 }
 
 .bottom-right-btn {
-  background: rgb(255, 163, 43);
+  background:  #f4ab0efa;
   border-bottom-right-radius: 20px;
 }
