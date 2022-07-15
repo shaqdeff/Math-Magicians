@@ -1,0 +1,39 @@
+.quote-container {
+  height: 95vh;
+  background: url(../images/bg-image2.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30rem;
+}
+
+.quote {
+  width: 620px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: #fff;
+  margin-left: 10rem;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: rgba(47, 47, 47, 0.56) 0 22px 70px 4px;
+}
+
+.quote p {
+  width: 500px;
+  color: rgb(144, 144, 144);
+}
+
+.quote-author {
+  font-size: 1.8rem;
+}
+
+.math-brain {
+  width: 450px;
+  height: 450px;
+}
