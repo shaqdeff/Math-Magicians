@@ -49,8 +49,15 @@ h2 {
   position: absolute;
   top: 30%;
   margin-left: 15rem;
-  max-width: 30vw;
-  color: rgb(177, 177, 177);
+  max-width: 400px;
+  color: rgb(182, 182, 182);
+  box-shadow: rgba(32, 32, 32, 0.06) 0 1px 12px inset;
+  border-radius: 10px;
+  height: 20vh;
+  max-height: 110px;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .calculator-grid {
