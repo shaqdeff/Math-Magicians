@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="quote-container"
+>
+  <div
+    className="quote"
+  >
+    <p>
+      "Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality."
+      <br />
+      <br />
+      <strong
+        className="quote-author"
+      >
+        — Richard Courant, German-American mathematician.
+      </strong>
+    </p>
+  </div>
+  <img
+    alt=""
+    className="math-brain"
+    src="math-brain.png"
+  />
+</div>
+`;
