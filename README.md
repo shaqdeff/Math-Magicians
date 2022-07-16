@@ -12,7 +12,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Live Demo
 - [Heroku Demo](https://mathmagicapp.herokuapp.com/)
-- [Netifly Demo](Coming Soon!)
+- [Netifly Demo](https://inspiring-medovik-37d3b3.netlify.app)
 
 ### Prerequisites
 
