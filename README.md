@@ -10,6 +10,10 @@ Math Magicians is a calculator app built with React.
 
 To get a local copy up and running follow these simple steps.
 
+## Live Demo
+- [Heroku Demo](https://mathmagicapp.herokuapp.com/)
+- [Netifly Demo](Coming Soon!)
+
 ### Prerequisites
 
 - A web browser (e.g. Mozilla Firefox, Google Chrome etc.)
